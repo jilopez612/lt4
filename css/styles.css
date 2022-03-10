@@ -1,0 +1,88 @@
+body{
+  background:linear-gradient(0deg, rgba(23, 23, 56, 0.4),
+  rgba(23, 23, 56, 0.4)), url("../images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header{
+  background: rgba(240, 231, 216, 0.7);
+  font-family: Arial;
+  border: 2px solid;
+}
+header h1{
+  text-align: center;
+}
+header p{
+  text-align: center;
+}
+nav{
+  background-color: #312F2F;
+  padding: 0;
+  text-align: left;
+  white-space: nowrap;
+}
+nav a{
+  font-family: Arial;
+  font-size: 15px;
+  display: inline-block;
+  padding: 10px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+main{
+  margin-block-start: 10px;
+  background: rgba(240, 231, 216, 0.7);
+  font-family: Arial;
+  height:100%;
+}
+small{
+  text-align: center;
+}
+.left{
+  float:left;
+  width:80%;
+  display: block;
+  margin-block-end: 10px;
+}
+.right{
+  float:right;
+  width:20%;
+  display: block;
+  margin-block-end: 10px;
+}
+.mcm{
+  margin-right: 10px;
+  padding: 10px;
+  background: rgba(240, 231, 216, 0.7);
+  border: 2px solid;
+}
+.cea{
+  margin-right: 10px;
+  margin-block-start:10px;
+  padding: 10px;
+  background: rgba(240, 231, 216, 0.7);
+  border: 2px solid;
+}
+.me{
+  padding: 10px;
+  background: rgba(240, 231, 216, 0.7);
+  border: 2px solid;
+}
+.food{
+  margin-block-start:10px;
+  padding: 10px;
+  background: rgba(240, 231, 216, 0.7);
+  border: 2px solid;
+}
+footer{
+  color: #FFFFFF;
+  clear:both;
+  text-align: center;
+  background-color: #312F2F;
+  font-family: Arial;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
